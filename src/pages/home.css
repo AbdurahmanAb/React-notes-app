@@ -1,0 +1,52 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#ear{
+    background-image: url('../asset/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg') !important;
+    background-size: cover;
+    
+    
+  }
+  h2{
+   margin-bottom: 5rem;
+    background-color: springgreen;
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    transition: all .4s;
+  }
+  h2:hover{
+    transform: skewX(-45deg);
+  }
+  .container-text{
+    text-align: center;
+    margin-top: -12px;
+
+  }
+ .btn-start{
+    background-color: #f7f7f7;
+    text-decoration: none;
+    padding: 18px 40px;
+    color: black;
+    border-radius: 25px; 
+ }
+ .text-list{
+    line-height: 1.3rem;
+ }
+ .list-item:last-child{
+    margin-bottom: 6rem;
+ }
+ .list-item{
+    list-style-type: none;
+    padding: 1rem;
+ }
+ i{
+    margin-right: 2rem;
+ }
+ p{
+    margin-top: -3rem;
+    text-indent: -300px;
+ }
